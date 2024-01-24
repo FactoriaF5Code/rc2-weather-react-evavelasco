@@ -1,0 +1,23 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: auto;
+}
+div.fondo:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-image: url("../public/atmosfericos1.jpeg");
+}
+div.content {
+  z-index: 2;
+  position: relative;
+}
+#root {
+  position: relative;
+}
